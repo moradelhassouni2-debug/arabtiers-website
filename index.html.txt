@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArabTiers — Minecraft PvP Rankings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- نافبار الموقع (Header) -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-shield-sword"></i> ArabTiers
+        </div>
+        <nav>
+            <a href="#" class="active">Leaderboard</a>
+            <a href="#">Tiers Info</a>
+            <a href="#">Rules</a>
+            <a href="#" class="discord-login-btn"><i class="fa-brands fa-discord"></i> Login with Discord</a>
+        </nav>
+    </header>
+
+    <!-- المحتوى الرئيسي: قائمة المتصدرين (Leaderboard) -->
+    <main class="container">
+        <div class="hero-section">
+            <h1>ArabTiers Leaderboard</h1>
+            <p>Check out the best 1.21+ & Classic Minecraft PvP players across all modes.</p>
+        </div>
+
+        <!-- فلاتر المودات -->
+        <div class="modes-filter">
+            <button class="filter-btn active">Spearmace (1.21+)</button>
+            <button class="filter-btn">Shield</button>
+            <button class="filter-btn">Crystal</button>
+            <button class="filter-btn">Sword</button>
+            <button class="filter-btn">NetPot</button>
+            <button class="filter-btn">SMP</button>
+        </div>
+
+        <!-- جدول الترتيب -->
+        <div class="leaderboard-table-wrapper">
+            <table class="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player (IGN)</th>
+                        <th>Region</th>
+                        <th>Tier</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="rank-1">#1</td>
+                        <td><span class="player-name">ItzVelo</span></td>
+                        <td>NA</td>
+                        <td><span class="tier-badge ht1">HT1</span></td>
+                        <td><span class="status-active">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td class="rank-2">#2</td>
+                        <td><span class="player-name">Warriorsan</span></td>
+                        <td>EU</td>
+                        <td><span class="tier-badge ht2">HT2</span></td>
+                        <td><span class="status-active">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td class="rank-3">#3</td>
+                        <td><span class="player-name">MeowMC</span></td>
+                        <td>MENA</td>
+                        <td><span class="tier-badge lt1">LT1</span></td>
+                        <td><span class="status-active">Active</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>© 2026 ArabTiers Community. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
